@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine">
+      <UniqueIdentifier>{7d2199d8-ffd2-4326-a84c-43957b421df7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Core">
+      <UniqueIdentifier>{2819035a-167c-4076-bdab-33ee96ee88be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Core\OpenGL">
+      <UniqueIdentifier>{4610facd-63e8-452f-ace7-66fe9e03a0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Core\Windows">
+      <UniqueIdentifier>{1c1ceda5-f4d4-4ae6-be01-ff6dd468bbc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Math">
+      <UniqueIdentifier>{8e88627a-511a-4b8e-894c-dd1d584cce44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Scene">
+      <UniqueIdentifier>{2c6c3b44-5c40-4e9e-b4c5-b4d2d59ce8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Ecs">
+      <UniqueIdentifier>{49c4281d-beed-4b48-9b2c-a0dd8d332ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Ecs\Entity">
+      <UniqueIdentifier>{de277478-6879-41a0-a872-d8f32d7b1352}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Ecs\Components">
+      <UniqueIdentifier>{e1da1fca-9e49-4055-92fe-4106cb7876da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Ecs\Systems">
+      <UniqueIdentifier>{6a554e1d-5a1c-41fe-95c4-335c6c045ec4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Project">
+      <UniqueIdentifier>{8a2a8d0a-8a8b-4b85-b888-5bb8c2e0d3e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Shaders">
+      <UniqueIdentifier>{4fec4db0-c727-4f15-b2e9-6affc617a06e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Engine\Llibs">
+      <UniqueIdentifier>{a497a8f6-db3b-4bf5-859f-993297198df2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\Core\camera.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Math\math.cpp">
+      <Filter>Исходные файлы\Engine\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\engine.cpp">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>Исходные файлы\Engine\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\game.cpp">
+      <Filter>Исходные файлы\Engine\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Libs\glad.c">
+      <Filter>Исходные файлы\Engine\Llibs</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Libs\stb_image.cpp">
+      <Filter>Исходные файлы\Engine\Llibs</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\light.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\material.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\mesh.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\model.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLShader.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\rendererAPI.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLRendererAPI.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\shader.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\renderer.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\vertexArray.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\window.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLContext.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\context.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Windows\WindowsWindow.cpp">
+      <Filter>Исходные файлы\Engine\Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\buffer.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\Windows\WindowsInput.cpp">
+      <Filter>Исходные файлы\Engine\Core\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLBuffer.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\texture.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLTexture.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\uniformBuffer.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLUniformBuffer.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\framebuffer.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLFramebuffer.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLVertexArray.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\assets.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Ecs\scene.cpp">
+      <Filter>Исходные файлы\Engine\Ecs</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Ecs\Systems\cameraSystem.cpp">
+      <Filter>Исходные файлы\Engine\Ecs\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Ecs\Systems\userInputSystem.cpp">
+      <Filter>Исходные файлы\Engine\Ecs\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Ecs\Entity\entity.cpp">
+      <Filter>Исходные файлы\Engine\Ecs\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\dataStream.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\scene.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\sceneImporter.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\node.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\meshPrimitivesManager.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Scene\sceneManager.cpp">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\sampler.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\OpenGL\OpenGLSampler.cpp">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\Core\image.cpp">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Core\camera.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Math\math.h">
+      <Filter>Исходные файлы\Engine\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\engine.h">
+      <Filter>Исходные файлы\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\game.h">
+      <Filter>Исходные файлы\Engine\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Libs\stb_image.h">
+      <Filter>Исходные файлы\Engine\Llibs</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\light.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\material.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\mesh.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\model.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLShader.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\rendererAPI.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLRendererAPI.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\shader.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\base.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\renderer.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\vertexArray.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\window.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLContext.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\context.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\Windows\WindowsWindow.h">
+      <Filter>Исходные файлы\Engine\Core\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\buffer.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\input.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLBuffer.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\texture.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLTexture.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\unifornBuffer.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLUniformBuffer.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\framebuffer.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLFramebuffer.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLVertexArray.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\assets.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ecs\scene.h">
+      <Filter>Исходные файлы\Engine\Ecs</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ecs\Systems\cameraSystem.h">
+      <Filter>Исходные файлы\Engine\Ecs\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ecs\Systems\systems.h">
+      <Filter>Исходные файлы\Engine\Ecs\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ecs\Systems\userInputSystem.h">
+      <Filter>Исходные файлы\Engine\Ecs\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ecs\Components\components.h">
+      <Filter>Исходные файлы\Engine\Ecs\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ecs\Entity\entity.h">
+      <Filter>Исходные файлы\Engine\Ecs\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Ecs\Entity\entt.hpp">
+      <Filter>Исходные файлы\Engine\Ecs\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\dataStream.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\scene.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\sceneImporter.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\node.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\meshPrimitivesManager.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Scene\sceneManager.h">
+      <Filter>Исходные файлы\Engine\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\sampler.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\OpenGL\OpenGLSampler.h">
+      <Filter>Исходные файлы\Engine\Core\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Core\image.h">
+      <Filter>Исходные файлы\Engine\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\shaders\lampShader.frag">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </None>
+    <None Include="src\shaders\lampShader.vert">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </None>
+    <None Include="src\shaders\lightShader.frag">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </None>
+    <None Include="src\shaders\lightShader.vert">
+      <Filter>Исходные файлы\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
